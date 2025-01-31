@@ -5,7 +5,7 @@
 </div>
 
 <h3 align="center" style="font-size:30px;">Midas Money</h3>
-  <p align="center">
+<!--   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
@@ -16,13 +16,13 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
+  </p> -->
 </div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Sumário</summary>
-  <ol>
+<!--   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -42,7 +42,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+  </ol> -->
 </details>
 
 
@@ -55,7 +55,7 @@
 
 
 ### Tecnologias
-
+<!--
 Esta seção deve listar todas as principais estruturas/bibliotecas usadas para inicializar seu projeto. Deixe quaisquer complementos/plugins para
 a seção de agradecimentos. Aqui estão alguns exemplos
 
@@ -64,9 +64,9 @@ a seção de agradecimentos. Aqui estão alguns exemplos
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+-->
 <!-- GETTING STARTED -->
-
+<!--
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.

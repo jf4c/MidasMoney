@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidasMoney.Core", "MidasMoney.Core\MidasMoney.Core.csproj", "{B66E836B-9475-4B6D-9083-9A3331034713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidasMoney.Api", "MidasMoney.Api\MidasMoney.Api.csproj", "{CCF872E2-3D5A-4485-97A5-A55CC5100EB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidasMoney.Api", "MidasMoney.Api\MidasMoney.Api.csproj", "{76217AC2-E11C-46FA-8E7F-B6BD2FB95023}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{B66E836B-9475-4B6D-9083-9A3331034713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B66E836B-9475-4B6D-9083-9A3331034713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B66E836B-9475-4B6D-9083-9A3331034713}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCF872E2-3D5A-4485-97A5-A55CC5100EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCF872E2-3D5A-4485-97A5-A55CC5100EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCF872E2-3D5A-4485-97A5-A55CC5100EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCF872E2-3D5A-4485-97A5-A55CC5100EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76217AC2-E11C-46FA-8E7F-B6BD2FB95023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76217AC2-E11C-46FA-8E7F-B6BD2FB95023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76217AC2-E11C-46FA-8E7F-B6BD2FB95023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76217AC2-E11C-46FA-8E7F-B6BD2FB95023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

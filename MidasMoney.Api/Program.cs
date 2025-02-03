@@ -5,24 +5,33 @@ using MidasMoney.Core.Models;
 
 var builder = WebApplication.CreateSlimBuilder(args);
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(7277, listenOptions =>
+    {
+        listenOptions.UseHttps();
+    });
+});
+
 var cnnStr = builder.Configuration.GetConnectionString("DefaultConnection") ?? string.Empty;
 builder.Services.AddDbContext<AddDbContext>(x => { x.UseSqlServer(cnnStr); });
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(x => { x.CustomSchemaIds(n => n.FullName); });
-
-builder.Services.AddScoped<Handler>();
+builder.Services.Configure<RouteOptions>(
+    options => options.SetParameterPolicy<RegexInlineRouteConstraint>("regex"));
+builder.Services.AddTransient<Handler>();
 
 var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
 
-// app.MapPost("/v1/categories", (Request request, Handler hendler) => hendler.Handle(request)).Produces<Response>();
+app.MapPost("/v1/categories", (Request request, Handler hendler) => hendler.Handle(request)).Produces<Response>();
 
 app.Run();
 
-//request
+// request
 public record Request
 {
     public string Title { get; set; } = string.Empty;

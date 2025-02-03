@@ -1,11 +1,6 @@
-@MidasMoney.Api_HostAddress = http://localhost:5121
+@MidasMoney.Api_HostAddress = http://localhost:5171
 
-GET {{MidasMoney.Api_HostAddress}}/todos/
-Accept: application/json
-
-###
-
-GET {{MidasMoney.Api_HostAddress}}/todos/1
+GET {{MidasMoney.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
